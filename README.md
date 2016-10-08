@@ -53,23 +53,28 @@ US_states =
 "Wisconsin" => "WI",
 "Wyoming" => "WY"}
 
+โค้ดข้อ1
 US_states.each {|x,y|
 if "#{y{1}}"=="T"|| "#{y{1}}"=="N"
 puts y 
 }
+____________________________________________
+
+โค้ดข้อ 1.2
 puts Us_state.sort.reverse
 
+_____________________________________________
 
+โค้ดข้อ 1.3
 US_states.each do | key, value|
 	if (key[0] == "A"|| key[0] =="E"|| key[0] =="I"|| key[0] =="O"|| key[0] =="U") &&  
 	    (key[key.length-1] == "a"||key[key.length-1] =="e"||key[key.length-1] =="i"||key[key.length-1] =="o"||key[key.length-1] =="u" )  
   puts  key
-  
-    
   end
   end
-  
-   
+___________________________________________
+
+   โค้ดข้อ 2
    require 'prime'
 num = gets.chomp
 n = 1
